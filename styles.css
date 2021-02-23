@@ -124,6 +124,15 @@ background:url('img/logo.svg') ;
   opacity:.5;
 }
 
+@keyframes flash {
+  to{
+    color: #3CFFF2
+  }
+}
+.main__button{
+  animation: flash .5s infinite ease-in-out;
+}
+
  @media (max-width: 1367px){
    .wrapper {
        width: 68.6%;
